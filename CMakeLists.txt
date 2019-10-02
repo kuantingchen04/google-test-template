@@ -3,6 +3,8 @@ message(STATUS "Current Dir:  ${CMAKE_CURRENT_SOURCE_DIR}")
 
 project(gtest_demo)
 
+set(CMAKE_CXX_FLAGS "-std=c++11 -pthread")
+
 #GTEST_INCLUDE_DIR
 set(GTEST_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/gtest/include)
 

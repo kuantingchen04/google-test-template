@@ -1,6 +1,6 @@
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-find_package(Threads)
+#find_package(Threads)
 
 #add_library(calclib
 #    ${PROJECT_SOURCE_DIR}/src/calc.cpp
@@ -14,7 +14,6 @@ add_executable(gtest_calc
 
 target_link_libraries(gtest_calc
     calclib
-    #${GTEST_LIBS}    
     ${gtest}
     ${gtest_main}
     pthread
