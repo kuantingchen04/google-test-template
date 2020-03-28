@@ -1,8 +1,8 @@
-# ifndef __KDS_STRING_UTIL_H_
-# define __KDS_STRING_UTIL_H_
+# ifndef STRING_UTIL_H
+# define STRING_UTIL_H
 class StringUtil
 {
 public:
     static int ToInt(const char* str);
 };
-# endif
+# endif  // STRING_UTIL_H

@@ -1,8 +1,8 @@
-# ifndef __KDS_CAlC_H_
-# define __KDS_CALC_H_
+# ifndef CALC_H
+# define CALC_H
 class Calc
 {
 public:
     static int Add(int a, int b);
 };
-# endif
+# endif  //CALC_H
