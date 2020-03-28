@@ -1,5 +1,5 @@
 include_directories(
-    ${PROJECT_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/include
 )
 
 add_library(calclib
