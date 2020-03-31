@@ -2,13 +2,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/include
 )
 
-add_library(calclib
+add_library(libcalc
     calc.cpp
     string_util.cpp
-)
-
-add_executable(runcalc
-    calc.cpp
-    string_util.cpp
-    main.cpp
 )

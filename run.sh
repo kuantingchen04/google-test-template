@@ -1,1 +1,1 @@
-./build/test/gtest_calc
+./build/test/gtest_all
