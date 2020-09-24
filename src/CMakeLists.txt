@@ -1,8 +1,6 @@
-include_directories(
-    ${CMAKE_SOURCE_DIR}/include
-)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_library(libcalc
+add_library(my_library
     calc.cpp
     string_util.cpp
 )

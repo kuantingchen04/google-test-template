@@ -1,1 +1,1 @@
-./build/test/gtest_all
+./build/test/unittest_all

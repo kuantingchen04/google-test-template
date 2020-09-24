@@ -4,7 +4,7 @@ fi
 
 git clone https://github.com/google/googletest
 cd googletest
-git checkout release-1.10.0 # specify version
+git checkout tags/release-1.10.0 # specify version
 mkdir build && cd build
 cmake \
 -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK/build/cmake/android.toolchain.cmake \
@@ -21,3 +21,5 @@ cmake \
 make -j4
 
 cp lib/lib*.a ../../thirdparty/gtest-v7a/lib
+
+rm -rf googletest
