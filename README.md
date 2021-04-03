@@ -1,7 +1,7 @@
 # google-test-template
 >A Google Test Quickstart Template for setting up tests using CMake. 
 
->Googletest libraries are prebuilt to run on Ubuntu 64bits in thirdparty directory.
+>Tested on Ubuntu x64, MacOS, and Android v7a.
 
 ### Check usage in test directory
 ```

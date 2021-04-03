@@ -9,6 +9,7 @@ set(gtest_build_include_dirs
     "${gtest_SOURCE_DIR}/include"
     "${gtest_SOURCE_DIR}")
 include_directories(${gtest_build_include_dirs})
+
 add_library(gtest ${gtest_SOURCE_DIR}/src/gtest-all.cc)
 add_library(gtest_main ${gtest_SOURCE_DIR}/src/gtest_main.cc)
 target_link_libraries(gtest_main PUBLIC gtest)
